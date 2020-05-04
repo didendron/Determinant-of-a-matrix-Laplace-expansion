@@ -11,7 +11,7 @@ public class Determinant {
         double[][] matrix=null;
         Scanner in=new Scanner(System.in);
         do {
-            System.out.println("Enter degree of a matrix(grater or equals 2):");
+            System.out.println("Enter degree of a matrix(greater or equals 2):");
             degreeMatrix=in.nextInt();
         }while (degreeMatrix<2);
 
