@@ -11,14 +11,14 @@ public class Determinant {
         double[][] matrix=null;
         Scanner in=new Scanner(System.in);
         do {
-            System.out.println("Podaj stopień macierzy(większy lub równy 2):");
+            System.out.println("Enter degree of a matrix(grater or equals 2):");
             degreeMatrix=in.nextInt();
         }while (degreeMatrix<2);
 
         matrix=new double[degreeMatrix][degreeMatrix];
         int counter=0;
         do{
-            String question=String.format("Wpisz macierz(%d liczb): ",degreeMatrix*degreeMatrix);
+            String question=String.format("Enter a matrix(%d numbers): ",degreeMatrix*degreeMatrix);
             System.out.println(question);
             for(int i=0;i<degreeMatrix;i++){
                 for(int j=0;j<degreeMatrix;j++){
@@ -29,7 +29,7 @@ public class Determinant {
         }while (degreeMatrix*degreeMatrix!=counter);
 
         determinant=countDeterminant(degreeMatrix,matrix);
-        System.out.println("Wyznacznik wynosi: "+determinant);
+        System.out.println("Determinant is: "+determinant);
 
     }
 
