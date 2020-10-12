@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Determinant of a matrix:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Determinant_of_a_matrix_jar</output-path>
+    <root id="archive" name="Determinant of a matrix.jar">
+      <element id="module-output" name="Determinant of a matrix" />
+    </root>
+  </artifact>
+</component>
