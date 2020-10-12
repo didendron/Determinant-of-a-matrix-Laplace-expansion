@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Determinant {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         int degreeMatrix=0;
         double determinant=0;
         double[][] matrix=null;
@@ -30,6 +30,7 @@ public class Determinant {
 
         determinant=countDeterminant(degreeMatrix,matrix);
         System.out.println("Determinant is: "+determinant);
+        Thread.sleep(10000);
 
     }
 
